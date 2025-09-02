@@ -1,0 +1,18 @@
+#include "find_port.h"
+#include "kutils.h"
+#include "offsets.h"
+#include "krw.h"
+
+uint64_t find_port(mach_port_name_t port) {
+    uint64_t task_addr = task_self_addr();
+    
+    uint64_t itk_space = kread64(task_addr + off_task_itk_space);
+    
+    uint64_t is_table = kread64(itk_space + off_ipc_space_is_table);
+    
+    uint32_t port_index = port >> 8;
+    const int sizeof_ipc_entry_t = 0x18;
+    
+    uint64_t port_addr = kread64(is_table + (port_index * sizeof_ipc_entry_t));
+    return port_addr;
+}
