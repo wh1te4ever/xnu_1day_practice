@@ -5,3 +5,8 @@ sock_port/
 poc
 voucher_swap
 machswap2
+*.kasan
+/CVE-2021-30937/kernel.kasan.dSYM
+/CVE-2021-30937/multicast_bytecopy
+/CVE-2021-30937/xnu-8019.41.5
+kernel.kasan.*
