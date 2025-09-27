@@ -10,3 +10,9 @@ machswap2
 /CVE-2021-30937/multicast_bytecopy
 /CVE-2021-30937/xnu-8019.41.5
 kernel.kasan.*
+*.id0
+*.id1
+*.nam
+*.til
+/CVE-2021-30937/kernels
+/CVE-2021-30937/crash
