@@ -16,3 +16,4 @@ kernel.kasan.*
 *.til
 /CVE-2021-30937/kernels
 /CVE-2021-30937/crash
+*.i64
