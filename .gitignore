@@ -19,3 +19,4 @@ kernel.kasan.*
 *.i64
 CVE-2021-30937/CVE-2021-30937_iphone6s_150/6s_15.0_panic/DUMMY.md
 /CVE-2021-30937/xnu-7195.81.3
+/CVE-2021-30937/IOKitUser-1955.40.6
