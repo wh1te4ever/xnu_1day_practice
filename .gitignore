@@ -34,3 +34,11 @@ CVE-2021-30955/research_vmapple_1201/exp.id2
 /CVE-2025-43510/packages
 /CVE-2025-43510/research_ipad7_186/packages
 /CVE-2025-43510/research_ipad7_186/.theos
+/CVE-2025-43520/research_vmapple_260/clearsword-poc
+/CVE-2025-43520/research_iphone6s_124_137_140_1587/packages
+/CVE-2025-43520/research_iphone6s_124_137_140_1587/kernel
+CVE-2025-43520/research_iphone6s_124_137_140_1587/success_run_result_137.txt
+CVE-2025-43520/research_iphone6s_124_137_140_1587/success_spy_result_137.txt
+/CVE-2025-43520/research_iphone6s_124_137_140_1587/.theos
+CVE-2025-43520/research_ipad7_iphone6s_150/xnuspytest_iOS13_14/klog
+CVE-2025-43520/research_iphone6s_124_137_140_1587/spy_result_140.txt

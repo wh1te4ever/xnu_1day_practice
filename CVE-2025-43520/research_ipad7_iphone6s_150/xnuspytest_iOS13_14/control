@@ -1,0 +1,9 @@
+Package: kr.h4ck.xnuspytestios15
+Name: xnuspy_test_iOS15
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: seo
+Author: seo
+Section: System
+Tag: role::hacker
